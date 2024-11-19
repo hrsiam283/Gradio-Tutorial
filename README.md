@@ -44,7 +44,7 @@ gr.Group: A flexible container for grouping components.
 gr.Chatbot: Specialized component for displaying chatbot messages.
 gr.State: Invisible component for storing temporary state across function calls.
 ```
-#gr.Textbox#
+**gr.Textbox**
 ```
 gr.Textbox(
     label: str = None,       # Text displayed above the textbox.
@@ -57,7 +57,7 @@ gr.Textbox(
     elem_classes: list = [], # CSS classes to apply to the textbox.
 )
 ```
-#gr.Number #
+**gr.Number **
 
 ```
 gr.Number(
@@ -72,7 +72,7 @@ gr.Number(
     elem_classes: list = [],   # CSS classes to apply.
 )
 ```
-#gr.Slider#
+**gr.Slider**
 ```
 gr.Slider(
     label: str = None,         # Label text.
@@ -86,7 +86,7 @@ gr.Slider(
     elem_classes: list = [],   # CSS classes.
 )
 ```
-#gr.Checkbox#
+**gr.Checkbox**
 ```
 gr.Checkbox(
     label: str = None,         # Label text for the checkbox.
@@ -97,7 +97,7 @@ gr.Checkbox(
     elem_classes: list = [],   # CSS classes to apply.
 )
 ```
-#gr.CheckboxGroup (Input for multiple checkboxes)#
+**gr.CheckboxGroup  (Input for multiple checkboxes)**
 ```
 gr.CheckboxGroup(
     label: str = None,         # Label text for the checkbox group.
@@ -110,7 +110,7 @@ gr.CheckboxGroup(
 )
 ```
 
-#gr.Radio (Input for selecting one option from a list)#
+**gr.Radio (Input for selecting one option from a list)**
 
 ```
 gr.Radio(
@@ -123,7 +123,7 @@ gr.Radio(
     elem_classes: list = [],   # CSS classes.
 )
 ```
-#gr.Dropdown (Input for selecting one or multiple options from a dropdown)#
+**gr.Dropdown (Input for selecting one or multiple options from a dropdown)**
 ```
 gr.Dropdown(
     label: str = None,         # Label for the dropdown.
@@ -136,7 +136,7 @@ gr.Dropdown(
     elem_classes: list = [],   # CSS classes.
 )
 ```
-#gr.Button (Button to trigger actions)#
+**gr.Button (Button to trigger actions)**
 ```gr.Button(
     label: str = "Button",      # Label text on the button.
     variant: str = "primary",   # Button style (e.g., "primary", "secondary").
@@ -148,7 +148,7 @@ gr.Dropdown(
     scale: float = 1.0,         # Button size scaling.
 )
 ```
-#gr.File (Input for uploading files)#
+**gr.File (Input for uploading files)**
 ```
 gr.File(
     label: str = None,          # Label text.
@@ -160,7 +160,7 @@ gr.File(
     elem_classes: list = [],    # CSS classes.
 )
 ```
-#gr.Image (Input for uploading or drawing images)#
+**gr.Image (Input for uploading or drawing images)**
 ```
 gr.Image(
     label: str = None,          # Label text.
@@ -176,7 +176,7 @@ gr.Image(
 
 
 
-#11. gr.Video (Input for uploading videos)#
+**11. gr.Video (Input for uploading videos)**
 ```
 gr.Video(
     label: str = None,          # Label text.
@@ -185,8 +185,9 @@ gr.Video(
     interactive: bool = True,   # Whether the video input is interactive.
     elem_id: str = "",          # Unique ID.
     elem_classes: list = [],    # CSS classes.
-)```
-#12. gr.Audio (Input for uploading or recording audio)#
+)
+```
+**12. gr.Audio (Input for uploading or recording audio)**
 ```
 gr.Audio(
     label: str = None,          # Label text.
@@ -197,7 +198,7 @@ gr.Audio(
     elem_classes: list = [],    # CSS classes.
 )
 ```
-#13. gr.Dataframe (Input for tabular data)#
+**13. gr.Dataframe (Input for tabular data)**
 ```
 gr.Dataframe(
     label: str = None,          # Label text.
@@ -212,7 +213,7 @@ gr.Dataframe(
     elem_classes: list = [],    # CSS classes.
 )
 ```
-#14. gr.TextArea (Input for multi-line text)#
+**14. gr.TextArea (Input for multi-line text)**
 ```
 gr.TextArea(
     label: str = None,          # Label text.
