@@ -138,7 +138,7 @@ gr.Dropdown(
 ```
 **gr.Button (Button to trigger actions)**
 ```gr.Button(
-    label: str = "Button",      # Label text on the button.
+    value: str = "Button",      # Value text on the button.
     variant: str = "primary",   # Button style (e.g., "primary", "secondary").
     visible: bool = True,       # Whether the button is visible.
     interactive: bool = True,   # Whether the button is clickable.
