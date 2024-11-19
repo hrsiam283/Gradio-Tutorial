@@ -1,4 +1,42 @@
 # Gradio-Tutorial
+**Input Components**
+```
+gr.Textbox: Input for text.
+gr.Number: Input for numeric values.
+gr.Slider: Input for selecting a range of values.
+gr.Checkbox: Input for a single checkbox.
+gr.CheckboxGroup: Input for multiple checkboxes.
+gr.Radio: Input for selecting one option from a list.
+gr.Dropdown: Input for selecting one or multiple options from a dropdown.
+gr.Button: Button to trigger actions.
+gr.File: Input for uploading files.
+gr.Image: Input for uploading or drawing images.
+gr.Video: Input for uploading videos.
+gr.Audio: Input for uploading or recording audio.
+gr.Dataframe: Input for tabular data.
+gr.TextArea: Input for multi-line text.
+**Output Components**
+gr.Label: Output for displaying a label or single value.
+gr.Text: Output for displaying text.
+gr.HighlightedText: Output for displaying highlighted text.
+gr.JSON: Output for displaying JSON data.
+gr.HTML: Output for displaying raw HTML.
+gr.Image: Output for displaying images.
+gr.Video: Output for displaying videos.
+gr.Audio: Output for playing audio files.
+gr.File: Output for downloading files.
+gr.Dataframe: Output for displaying tabular data.
+gr.Gallery: Output for displaying multiple images.
+**Layout Components**
+gr.Blocks: High-level container for structuring the interface.
+gr.Row: Horizontal grouping of components.
+gr.Column: Vertical grouping of components.
+gr.Tab: Container for organizing components into tabs.
+gr.Group: A flexible container for grouping components.
+Special Components
+gr.Chatbot: Specialized component for displaying chatbot messages.
+gr.State: Invisible component for storing temporary state across function calls.
+
 >Return a component in a function
 ```
 import gradio as gr
