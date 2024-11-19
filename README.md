@@ -1,6 +1,6 @@
 # Gradio-Tutorial
 **Input Components**
-```
+
 gr.Textbox: Input for text.
 gr.Number: Input for numeric values.
 gr.Slider: Input for selecting a range of values.
@@ -33,7 +33,7 @@ gr.Row: Horizontal grouping of components.
 gr.Column: Vertical grouping of components.
 gr.Tab: Container for organizing components into tabs.
 gr.Group: A flexible container for grouping components.
-Special Components
+**Special Components**
 gr.Chatbot: Specialized component for displaying chatbot messages.
 gr.State: Invisible component for storing temporary state across function calls.
 
